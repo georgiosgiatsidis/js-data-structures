@@ -1,0 +1,32 @@
+{
+  "name": "js-data-structures",
+  "version": "1.0.0",
+  "description": "Data Structures implemented in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgiosgiatsidis/js-data-structures.git"
+  },
+  "keywords": [
+    "js",
+    "data",
+    "structures"
+  ],
+  "author": "Georgios Giatsidis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgiosgiatsidis/js-data-structures/issues"
+  },
+  "homepage": "https://github.com/georgiosgiatsidis/js-data-structures#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  }
+}
