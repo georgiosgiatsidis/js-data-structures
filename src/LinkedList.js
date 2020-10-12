@@ -55,6 +55,27 @@ class LinkedList {
         return value;
     }
 
+    getFirst() {
+        return this.left;
+    }
+
+    getLast() {
+        return this.right;
+    }
+
+    get(index) {
+        let node;
+        let current = this.left;
+        let currentIndex = 0;
+        while (current) {
+            if (index === currentIndex) {
+                return current;
+            }
+            current = current.next;
+            currentIndex ++;
+        }
+    }
+
     print() {
         const result = [];
         let current = this.left;

@@ -11,4 +11,8 @@ linkedList.pushLeft(6);
 linkedList.removeRight();
 linkedList.removeLeft();
 
+console.log(linkedList.getLast().value);
+console.log(linkedList.getFirst().value);
+console.log(linkedList.get(2).value);
+
 linkedList.print();
