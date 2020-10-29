@@ -1,6 +1,7 @@
 const LinkedList = require('./LinkedList');
 const BST = require('./BST');
 const Stack = require('./Stack');
+const Queue = require('./Queue');
 const Graph = require('./Graph');
 
 const linkedList = new LinkedList();
