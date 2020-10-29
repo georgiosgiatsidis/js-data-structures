@@ -2,6 +2,7 @@ const LinkedList = require('./LinkedList');
 const BST = require('./BST');
 const Stack = require('./Stack');
 const Queue = require('./Queue');
+const Graph = require('./Graph');
 
 const linkedList = new LinkedList();
 linkedList.pushLeft(1);
@@ -43,3 +44,10 @@ queue.enqueue(4);
 queue.enqueue(3);
 console.log(queue.dequeue());
 console.log(queue.length());
+
+const graph = new Graph(4);
+graph.addEdge(0, 1);
+graph.addEdge(0, 2);
+graph.addEdge(1, 3);
+graph.addEdge(2, 3);
+graph.printGraph();
